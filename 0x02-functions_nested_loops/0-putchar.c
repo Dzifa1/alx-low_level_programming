@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 
-/*
+/**
  * main - prints putchar
  * Return: alaways 0
  */
