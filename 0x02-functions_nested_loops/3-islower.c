@@ -2,7 +2,7 @@
 
 /**
 * int _islower(int c) - checks lowercase alphabets
-*
+* @c: a character argument
 * Return: return 1 if c is lower case, 0 if otherwise
 */
 
