@@ -24,7 +24,6 @@ int i, j, n;
 
 					if (j != 0)
 					{
-						_putchar(',');
 						_putchar(' ');
 						_putchar((n % 10) + '0');
 					}
