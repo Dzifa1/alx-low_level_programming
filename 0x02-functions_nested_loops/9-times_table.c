@@ -18,15 +18,16 @@ void times_table(void)
 			if ((n / 10) == 0)
 			{
 				if (j == 0)
-				_putchar('0');
-				_putchar(',');
-
-					if (j != 0)
+				{
 					_putchar(' ');
-				_putchar((n % 10) + '0');
-				_putchar(',');
+				}
+				if (j != 0)
+				{
+					_putchar(' ');
+					_putchar((n % 10) + '0');
+				}
 
-					if (j < 9)
+				if (j < 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
@@ -35,7 +36,7 @@ void times_table(void)
 			{
 				_putchar((n / 10) + '0');
 				_putchar((n % 10) + '0');
-					if (j < 9)
+				if (j < 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');
