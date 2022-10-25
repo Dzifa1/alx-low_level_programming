@@ -14,11 +14,11 @@ void print_to_98(int c)
 	{
 		for (; c <= 98; c++)
 		{
-			printf("%d\n", c);
+			printf("%d", c);
 
 			if (c == 98)
 				continue;
-			printf(",");
+			printf(", ");
 		}
 		printf("\n");
 	}
@@ -26,11 +26,11 @@ void print_to_98(int c)
 	{
 		for (; c >= 98; c--)
 		{
-			printf("%d\n", c--);
+			printf("%d", c--);
 
 			if (c == 98)
 				continue;
-			printf(",");
+			printf(", ");
 		}
 		printf("\n");
 	}
