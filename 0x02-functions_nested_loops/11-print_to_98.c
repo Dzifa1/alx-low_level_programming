@@ -26,7 +26,7 @@ void print_to_98(int c)
 	{
 		for (; c >= 98; c--)
 		{
-			printf("%d", c--);
+			printf("%d", c);
 
 			if (c == 98)
 				continue;
